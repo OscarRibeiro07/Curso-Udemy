@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcd7644a-864b-4d41-b239-a041436bed30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/exception/ExceptionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/exception/UnsuportedMathOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/exception/handler/CustomEntityResponseHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/controllers/MathController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/controllers/MathController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/controllers/MathController.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/controllers/MathController.class" afterDir="false" />

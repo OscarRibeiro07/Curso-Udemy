@@ -3,6 +3,9 @@ package br.com.erudio.controllers;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.ArrayList;
+import java.util.List;
+
 @RestController
 @RequestMapping("/math")
 public class MathController {
@@ -36,9 +39,41 @@ public class MathController {
 
 
     // http://localhost:8080/math/subtraction/3/5
+    @RequestMapping("/subtraction/{num1}/{num2}")
+    public Double subtraction(@PathVariable("num1") String num1,@PathVariable("num2") String num2) throws Exception {
+        if(!isNumeric(num1)||!isNumeric(num2)) throw new UnsupportedOperationException("Please set a numeric value!");
+        return convertToDoble(num1 ) - convertToDoble(num2);
+    }
     // http://localhost:8080/math/division/3/5
+    @RequestMapping("/division/{num1}/{num2}")
+    public Double division(@PathVariable("num1") String num1,@PathVariable("num2") String num2) throws Exception {
+        if(!isNumeric(num1)||!isNumeric(num2)) throw new UnsupportedOperationException("Please set a numeric value!");
+        return convertToDoble(num1 ) / convertToDoble(num2);
+    }
 
 
+    // http://localhost:8080/math/media/3/5
+    @RequestMapping("/media/{num1}/{num2}")
+    public Double media(@PathVariable("num1") String num1,@PathVariable("num2") String num2) throws Exception {
+        if (!isNumeric(num1) || !isNumeric(num2))
+            throw new UnsupportedOperationException("Please set a numeric value!");
+        Double soma = convertToDoble(num1) + convertToDoble(num2);
+        ArrayList quantidades = new ArrayList();
+        quantidades.add(num1);
+        quantidades.add(num2);
+
+        return soma / quantidades.size() ;
+
+    }
 
 
+    // http://localhost:8080/math/division/3/5
+    @RequestMapping("/raizQuad/{num1}")
+    public Double raizQuad(@PathVariable("num1") String num1) throws Exception {
+        if (!isNumeric(num1))
+            throw new UnsupportedOperationException("Please set a numeric value!");
+        return convertToDoble(num1) * convertToDoble(num1) ;
+
+
+    }
 }
