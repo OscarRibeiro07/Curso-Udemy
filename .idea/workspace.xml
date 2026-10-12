@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcd7644a-864b-4d41-b239-a041436bed30" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/controllers/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/controllers/GreetingController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/controllers/MathController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/controllers/GreetingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/controllers/GreetingController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,19 +42,29 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.rest-with-spring-boot-and-java-erudio [install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "Spring Boot.Startup.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "rest-whit-spring-boot-and-java-erudio",
+    "git-widget-placeholder": "rest-with-spring-boot-and-java-erudio",
     "kotlin-language-version-configured": "true",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Facets",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+    </option>
+  </component>
   <component name="RunManager">
     <configuration name="Startup" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
@@ -94,5 +106,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
