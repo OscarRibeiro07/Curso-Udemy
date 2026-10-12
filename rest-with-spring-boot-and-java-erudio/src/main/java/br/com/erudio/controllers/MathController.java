@@ -10,12 +10,12 @@ public class MathController {
     // http://localhost:8080/math/sum/3/5
     @RequestMapping("/sum/{num1}/{num2}")
     public Double sum(@PathVariable("num1") String num1,@PathVariable("num2") String num2) throws Exception {
-        if(!isNumeric(num1)||!isNumeric(num2)) throw new Exception();
+        if(!isNumeric(num1)||!isNumeric(num2)) throw new UnsupportedOperationException("Please set a numeric value!");
         return convertToDoble(num1 ) + convertToDoble(num2);
     }
 
     private Double convertToDoble(String strNumero) throws Exception {
-        if(strNumero==null||strNumero.isEmpty())  throw new Exception();
+        if(strNumero==null||strNumero.isEmpty())  throw new UnsupportedOperationException("Please set a numeric value!");
         //formata tipo de ocorrencia de virgula para ponto.
         String numero = strNumero.replace(",",".");//R$ 5,00 para R$ 5.00
         return Double.parseDouble(numero);
