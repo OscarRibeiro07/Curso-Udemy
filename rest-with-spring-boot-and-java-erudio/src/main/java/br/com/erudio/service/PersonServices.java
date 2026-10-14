@@ -26,7 +26,15 @@ public class PersonServices {
         return person;
     }
 
+    public Person create(Person person){
+        logger.info("Creating person "+person);
+        person.setId(counter.incrementAndGet());
+        return person;
+    }
+
     public List<Person> findAll(){
+
+        logger.info("List person ");
         List<Person> persons = new ArrayList<>();
         for (int i = 0; i < 8; i++) {
             Person person = mockPerson(i);
