@@ -32,6 +32,17 @@ public class PersonServices {
         return person;
     }
 
+    public Person update(Person person){
+        logger.info("Update person ");
+        person.setId(counter.incrementAndGet());
+        return person;
+    }
+
+    public void delete(String id){
+        logger.info("Delete person ");
+
+    }
+
     public List<Person> findAll(){
 
         logger.info("List person ");
