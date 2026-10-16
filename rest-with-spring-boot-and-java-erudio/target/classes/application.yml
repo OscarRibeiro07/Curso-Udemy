@@ -1,12 +1,12 @@
 spring:
   application:
-    name:rest-with-spring-boot-and-java-erudio
+    name: rest-with-spring-boot-and-java-erudio
 
   datasource:
-    driver-class-name:com: org.postgresql.Driver
-    url: jdbc:postgres//localhost:8080/5432/rest_with_spring_boot_erudio?useTimezone=true&serverTimezone=UTC
-    username: {DB_USERS}
-    password: {DB_PASSWORDS}
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/rest_with_spring_boot_erudio
+    username: ${DB_USERS}
+    password: ${DB_PASSWORDS}
 
   jpa:
     hibernate:
@@ -15,7 +15,3 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.PostgreSQLDialect
     show-sql: false
-
-
-
-
