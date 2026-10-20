@@ -21,11 +21,12 @@ public class PersonServices {
     public Person findById(Long id) {
         logger.info("Finding person by id " + id);
         //mock
+        Person person = new Person();
 //        person.setNome("Oscar");
 //        person.setSobrenome("Ribeiro");
 //        person.setEndereco("Gamboa do morro - Cairu - Bahia");
 //        person.setGenero("Masculino");
-        return personRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Person not found"));
+        return personRepository.findById(person.getId()).orElseThrow(() -> new ResourceNotFoundException("Person not found"));
     }
 
     public Person create(Person person) {
