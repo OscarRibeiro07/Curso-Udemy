@@ -18,4 +18,6 @@ spring:
 
 logging:
   level:
-    br.com.erudio: INFO
+    # DEFINE CAMADA ONDE DEVE TESTAR/ EXECITAR O LOG
+    #br.com.erudio: DEBUG
+     root: INFO
