@@ -13,8 +13,10 @@
 
 # Package Files #
 *.jar
+*.zip
 *.war
 *.ear
+*.idea
 
 # Merge Files
 *.bak
@@ -35,7 +37,7 @@ blog/bin/
 **/*.iml
 **/.idea
 **/.gradle
-
+*/.idea
 #Other Files
 *.ini
 
