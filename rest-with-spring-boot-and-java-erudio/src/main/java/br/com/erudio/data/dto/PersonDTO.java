@@ -1,7 +1,5 @@
 package br.com.erudio.data.dto;
 
-import br.com.erudio.model.Person;
-
 import java.util.Objects;
 
 public class PersonDTO {

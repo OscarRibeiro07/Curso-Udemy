@@ -75,4 +75,8 @@ public class Person implements Serializable {
     public void setGenero(String genero) {
         this.genero = genero;
     }
+
+    public void getGenero(String s) {
+
+    }
 }
