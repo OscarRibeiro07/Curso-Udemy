@@ -5,13 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bcd7644a-864b-4d41-b239-a041436bed30" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/data/dto/v2/PersonDTOV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/mapper/custom/PersonMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/controllers/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/controllers/TesteLogController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/controllers/TesteLogController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/data/dto/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/data/dto/PersonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/data/dto/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/data/dto/v1/PersonDTOV1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/model/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/service/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/service/PersonServices.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/controllers/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/controllers/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/data/dto/PersonDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/service/PersonServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/target/classes/br/com/erudio/service/PersonServices.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +77,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Workspace\Cursos\Udemy\rest-with-spring-boot-and-java-erudio\src\main\resources\recursos" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.erudio.data.dto" />
     </key>
   </component>
   <component name="RunAnythingCache">

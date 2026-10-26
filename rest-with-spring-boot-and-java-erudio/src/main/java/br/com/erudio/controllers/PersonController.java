@@ -1,7 +1,7 @@
 package br.com.erudio.controllers;
 
-import br.com.erudio.data.dto.PersonDTO;
-import br.com.erudio.mapper.ObjectMapper;
+import br.com.erudio.data.dto.v1.PersonDTOV1;
+import br.com.erudio.data.dto.v2.PersonDTOV2;
 import br.com.erudio.model.Person;
 import br.com.erudio.service.PersonServices;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -25,12 +25,12 @@ public class PersonController {
 
     @GetMapping(value = "/{id}",
             produces = MediaType.APPLICATION_JSON_VALUE)
-    public PersonDTO findById(@PathVariable(value = "id") Long id) {
+    public PersonDTOV1 findById(@PathVariable(value = "id") Long id) {
         return personServices.findById(id);
     }
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
-    public List<PersonDTO> findAll() {
+    public List<PersonDTOV1> findAll() {
 
         return personServices.findAll();
     }
@@ -39,8 +39,16 @@ public class PersonController {
             consumes = MediaType.APPLICATION_JSON_VALUE,
             produces = MediaType.APPLICATION_JSON_VALUE
     )
-    public PersonDTO create(@RequestBody PersonDTO person) {
+    public PersonDTOV1 create(@RequestBody PersonDTOV1 person) {
         return personServices.create(person);
+    }
+
+    @PostMapping(value = "/v2",
+            consumes = MediaType.APPLICATION_JSON_VALUE,
+            produces = MediaType.APPLICATION_JSON_VALUE
+    )
+    public PersonDTOV2 createV2(@RequestBody Person person) {
+        return personServices.createv2(person);
     }
 
 
@@ -48,7 +56,7 @@ public class PersonController {
             consumes = MediaType.APPLICATION_JSON_VALUE,
             produces = MediaType.APPLICATION_JSON_VALUE
     )
-    public PersonDTO update(@RequestBody PersonDTO person) {
+    public PersonDTOV1 update(@RequestBody PersonDTOV1 person) {
         return personServices.update(person);
     }
 

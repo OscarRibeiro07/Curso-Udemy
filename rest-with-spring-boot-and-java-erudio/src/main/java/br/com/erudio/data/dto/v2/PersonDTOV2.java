@@ -1,8 +1,10 @@
-package br.com.erudio.data.dto;
+package br.com.erudio.data.dto.v2;
 
+import java.time.LocalDate;
+import java.util.Date;
 import java.util.Objects;
 
-public class PersonDTO {
+public class PersonDTOV2 {
 
     private static final long serializeble = 1L;
      private Long id;
@@ -10,19 +12,20 @@ public class PersonDTO {
     private String sobrenome;
     private String endereco;
     private String genero;
+    private Date nascimento;
 
-    public PersonDTO() {
+    public PersonDTOV2() {
     }
 
     @Override
     public boolean equals(Object o) {
-        if (!(o instanceof PersonDTO personDTO)) return false;
-        return Objects.equals(id, personDTO.id) && Objects.equals(nome, personDTO.nome) && Objects.equals(sobrenome, personDTO.sobrenome) && Objects.equals(endereco, personDTO.endereco) && Objects.equals(genero, personDTO.genero);
+        if (!(o instanceof PersonDTOV2 that)) return false;
+        return Objects.equals(id, that.id) && Objects.equals(nome, that.nome) && Objects.equals(sobrenome, that.sobrenome) && Objects.equals(endereco, that.endereco) && Objects.equals(genero, that.genero) && Objects.equals(nascimento, that.nascimento);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nome, sobrenome, endereco, genero);
+        return Objects.hash(id, nome, sobrenome, endereco, genero, nascimento);
     }
 
     public Long getId() {
@@ -64,4 +67,13 @@ public class PersonDTO {
     public void setGenero(String genero) {
         this.genero = genero;
     }
+
+    public Date getNascimento() {
+        return nascimento;
+    }
+
+    public void setNascimento(Date nascimento) {
+        this.nascimento = nascimento;
+    }
+
 }

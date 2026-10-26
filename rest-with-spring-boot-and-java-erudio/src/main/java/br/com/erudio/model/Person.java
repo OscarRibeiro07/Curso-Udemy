@@ -77,6 +77,5 @@ public class Person implements Serializable {
     }
 
     public void getGenero(String s) {
-
     }
 }
