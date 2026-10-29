@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe8e194-a5e1-42d1-8cd1-3aa29bc18ab8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/resources/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MigrationsWithFlyway/src/main/resources/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MigrationsWithFlyway/src/main/resources/recursos/comandosUsados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MigrationsWithFlyway/src/main/resources/recursos/comandosUsados.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +23,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -63,10 +72,10 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Workspace\Cursos\Udemy\CustomSerealizationJSON\src\main\resources" />
+      <recent name="C:\Workspace\Cursos\Udemy\MigrationsWithFlyway\src\main\resources" />
       <recent name="C:\Workspace\Cursos\Udemy\CustomSerealizationJSON\src\main\java\br\com\erudio" />
       <recent name="C:\Workspace\Cursos\Udemy\CustomSerealizationJSON\src\main\java" />
       <recent name="C:\Workspace\Cursos\Udemy\MigrationsWithFlyway\src\main\resources\db\migrations" />
-      <recent name="C:\Workspace\Cursos\Udemy\MigrationsWithFlyway\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Workspace\Cursos\Udemy\CustomSerealizationJSON\src\main" />

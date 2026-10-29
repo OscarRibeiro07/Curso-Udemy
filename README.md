@@ -31,7 +31,8 @@ escalaveis de APIS*
 ## Listas de Implementações realizadas
 
 - [x] rest-with-spring-boot-and-java-erudio
-- [ ] 
+- [x] Migração com Flyway
+- [x] JSON Serialize
 
 *A cima são as features/branchs implementadas, cadas feature tera
 seu readme que detalhara o intuito de sua criação com base nos commits*
