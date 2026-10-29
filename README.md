@@ -35,7 +35,7 @@ escalaveis de APIS*
 
 *A cima são as features/branchs implementadas, cadas feature tera
 seu readme que detalhara o intuito de sua criação com base nos commits*
- 
+
 
 </p>
 

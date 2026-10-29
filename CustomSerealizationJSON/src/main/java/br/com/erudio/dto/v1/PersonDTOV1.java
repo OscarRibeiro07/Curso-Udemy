@@ -5,8 +5,9 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
 import java.util.Objects;
+
 // reordena resposta json postman
-@JsonPropertyOrder({"id","last_name","sobrenome","endereco","genero"})
+@JsonPropertyOrder({"id", "last_name", "sobrenome", "endereco", "genero"})
 public class PersonDTOV1 {
 
     private static final long serializeble = 1L;
