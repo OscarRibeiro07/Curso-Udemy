@@ -1,8 +1,10 @@
 package br.com.erudio.dto.v2;
 
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+
 import java.util.Date;
 import java.util.Objects;
-
+@JsonPropertyOrder({"id","last_name","sobrenome","endereco","genero"})
 public class PersonDTOV2 {
 
     private static final long serializeble = 1L;

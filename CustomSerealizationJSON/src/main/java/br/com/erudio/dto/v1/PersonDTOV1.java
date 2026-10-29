@@ -1,14 +1,23 @@
 package br.com.erudio.dto.v1;
 
-import java.util.Objects;
+import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
+import java.util.Objects;
+// reordena resposta json postman
+@JsonPropertyOrder({"id","last_name","sobrenome","endereco","genero"})
 public class PersonDTOV1 {
 
     private static final long serializeble = 1L;
     private Long id;
+    //muda nome das variaveis da resposta json
+    @JsonProperty("last_name")
     private String nome;
     private String sobrenome;
     private String endereco;
+    // nao mostra informação na busca
+    @JsonIgnore
     private String genero;
 
     public PersonDTOV1() {

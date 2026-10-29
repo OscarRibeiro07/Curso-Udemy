@@ -1,7 +1,8 @@
 package br.com.erudio.service;
 
-import br.com.erudio.data.dto.v1.PersonDTOV1;
-import br.com.erudio.data.dto.v2.PersonDTOV2;
+
+import br.com.erudio.dto.v1.PersonDTOV1;
+import br.com.erudio.dto.v2.PersonDTOV2;
 import br.com.erudio.exception.ResourceNotFoundException;
 import br.com.erudio.mapper.custom.PersonMapper;
 import br.com.erudio.model.Person;

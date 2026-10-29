@@ -5,23 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe8e194-a5e1-42d1-8cd1-3aa29bc18ab8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/CustomSerializationJsonApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/controllers/PersonController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/dto/v1/PersonDTOV1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/dto/v2/PersonDTOV2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/exception/ExceptionResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/exception/ResourceNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/exception/handler/CustomEntityResponseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/mapper/ObjectMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/mapper/custom/PersonMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/repository/PersonRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/service/PersonServices.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/controllers/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/dto/v1/PersonDTOV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/dto/v1/PersonDTOV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/mapper/custom/PersonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/mapper/custom/PersonMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/service/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/service/PersonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +85,7 @@
       <command value="mvn clean install -DskipTests" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.MigrationsWithFlywayApplication">
+  <component name="RunManager" selected="Spring Boot.CustomSerializationJsonApplication">
     <configuration name="MigrationsWithFlywayApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="MigrationsWithFlyway" />
       <extension name="coverage">
@@ -112,6 +102,20 @@
         <env name="DB_PASSWORDS" value="MasterTechSolutionsSoft2023" />
         <env name="DB_USERS" value="postgres" />
       </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomSerializationJsonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="CustomSerealizationJSON" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.CustomSerializationJsonApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.erudio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -138,10 +142,12 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.MigrationsWithFlywayApplicationTests" />
+      <item itemvalue="Spring Boot.CustomSerializationJsonApplication" />
       <item itemvalue="Spring Boot.MigrationsWithFlywayApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.CustomSerializationJsonApplication" />
         <item itemvalue="Spring Boot.MigrationsWithFlywayApplication" />
         <item itemvalue="JUnit.MigrationsWithFlywayApplicationTests" />
       </list>

@@ -1,6 +1,6 @@
 package br.com.erudio.mapper.custom;
 
-import br.com.erudio.data.dto.v2.PersonDTOV2;
+import br.com.erudio.dto.v2.PersonDTOV2;
 import br.com.erudio.model.Person;
 import org.springframework.stereotype.Service;
 

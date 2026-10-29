@@ -1,7 +1,8 @@
 package br.com.erudio.controllers;
 
-import br.com.erudio.data.dto.v1.PersonDTOV1;
-import br.com.erudio.data.dto.v2.PersonDTOV2;
+
+import br.com.erudio.dto.v1.PersonDTOV1;
+import br.com.erudio.dto.v2.PersonDTOV2;
 import br.com.erudio.model.Person;
 import br.com.erudio.service.PersonServices;
 import org.springframework.beans.factory.annotation.Autowired;
