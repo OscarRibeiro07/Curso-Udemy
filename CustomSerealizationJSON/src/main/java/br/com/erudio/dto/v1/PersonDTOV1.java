@@ -1,9 +1,11 @@
 package br.com.erudio.dto.v1;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
+import java.util.Date;
 import java.util.Objects;
 
 // reordena resposta json postman
@@ -17,22 +19,33 @@ public class PersonDTOV1 {
     private String nome;
     private String sobrenome;
     private String endereco;
-    // nao mostra informação na busca
-    @JsonIgnore
-    private String genero;
-
-    public PersonDTOV1() {
-    }
 
     @Override
     public boolean equals(Object o) {
-        if (!(o instanceof PersonDTOV1 personDTO)) return false;
-        return Objects.equals(id, personDTO.id) && Objects.equals(nome, personDTO.nome) && Objects.equals(sobrenome, personDTO.sobrenome) && Objects.equals(endereco, personDTO.endereco) && Objects.equals(genero, personDTO.genero);
+        if (!(o instanceof PersonDTOV1 that)) return false;
+        return Objects.equals(id, that.id) && Objects.equals(nome, that.nome) && Objects.equals(sobrenome, that.sobrenome) && Objects.equals(endereco, that.endereco) && Objects.equals(genero, that.genero) && Objects.equals(dataNascimento, that.dataNascimento);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nome, sobrenome, endereco, genero);
+        return Objects.hash(id, nome, sobrenome, endereco, genero, dataNascimento);
+    }
+
+    public Date getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public void setDataNascimento(Date dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
+
+    // nao mostra informação na busca
+    @JsonIgnore
+    private String genero;
+    @JsonFormat(pattern = "dd/MM/yyyy")
+    private Date dataNascimento;
+
+    public PersonDTOV1() {
     }
 
     public Long getId() {

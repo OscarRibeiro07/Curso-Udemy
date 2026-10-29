@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe8e194-a5e1-42d1-8cd1-3aa29bc18ab8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/resources/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MigrationsWithFlyway/src/main/resources/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MigrationsWithFlyway/src/main/resources/recursos/comandosUsados.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MigrationsWithFlyway/src/main/resources/recursos/comandosUsados.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/controllers/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/dto/v1/PersonDTOV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/dto/v1/PersonDTOV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/br/com/erudio/dto/v1/PersonDTOV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/br/com/erudio/dto/v1/PersonDTOV1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +21,23 @@
       <entry key="5c5acf5b-9a3b-4d51-a04a-d845071b45d9" value="" />
       <entry key="ed5dad01-128c-4348-a950-153959990578" value="" />
     </colors>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="ForamtandDatas" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -52,6 +70,7 @@
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.CustomSerializationJsonApplication.executor": "Run",
     "Spring Boot.MigrationsWithFlywayApplication (1).executor": "Run",
     "Spring Boot.MigrationsWithFlywayApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
@@ -177,5 +196,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

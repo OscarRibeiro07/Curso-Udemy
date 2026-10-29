@@ -10,6 +10,7 @@ import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.Date;
 import java.util.List;
 
 @RequestMapping("/person")
@@ -25,7 +26,9 @@ public class PersonController {
     @GetMapping(value = "/{id}",
             produces = MediaType.APPLICATION_JSON_VALUE)
     public PersonDTOV1 findById(@PathVariable(value = "id") Long id) {
-        return personServices.findById(id);
+        var person = personServices.findById(id);
+        person.setDataNascimento(new Date());
+        return person;
     }
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
