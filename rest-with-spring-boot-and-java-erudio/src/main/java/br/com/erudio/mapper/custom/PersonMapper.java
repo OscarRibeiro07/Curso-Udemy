@@ -3,9 +3,9 @@ package br.com.erudio.mapper.custom;
 import br.com.erudio.data.dto.v2.PersonDTOV2;
 import br.com.erudio.model.Person;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.Date;
+
 @Service
 public class PersonMapper {
 
@@ -31,7 +31,7 @@ public class PersonMapper {
         entity.setSobrenome(person.getSobrenome());
         entity.setEndereco(person.getEndereco());
         entity.setGenero(person.getGenero());
-     //   entity.setNascimento(new Date());
+        //   entity.setNascimento(new Date());
 
         return entity;
     }

@@ -5,6 +5,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/pom.xml" />
+        <option value="$PROJECT_DIR$/MigrationsWithFlyway/pom.xml" />
       </list>
     </option>
   </component>

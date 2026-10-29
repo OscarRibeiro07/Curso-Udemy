@@ -1,13 +1,12 @@
 package br.com.erudio.data.dto.v2;
 
-import java.time.LocalDate;
 import java.util.Date;
 import java.util.Objects;
 
 public class PersonDTOV2 {
 
     private static final long serializeble = 1L;
-     private Long id;
+    private Long id;
     private String nome;
     private String sobrenome;
     private String endereco;

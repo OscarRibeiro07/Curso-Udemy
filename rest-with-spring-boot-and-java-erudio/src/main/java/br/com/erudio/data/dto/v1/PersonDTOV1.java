@@ -5,7 +5,7 @@ import java.util.Objects;
 public class PersonDTOV1 {
 
     private static final long serializeble = 1L;
-     private Long id;
+    private Long id;
     private String nome;
     private String sobrenome;
     private String endereco;

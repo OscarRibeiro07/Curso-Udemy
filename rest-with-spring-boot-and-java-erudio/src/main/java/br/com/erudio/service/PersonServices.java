@@ -19,7 +19,7 @@ import static br.com.erudio.mapper.ObjectMapper.parse;
 public class PersonServices {
 
     private final AtomicLong counter = new AtomicLong();
-    private Logger logger = Logger.getLogger(PersonServices.class.getName());
+    private final Logger logger = Logger.getLogger(PersonServices.class.getName());
     @Autowired
     private PersonRepository personRepository;
     @Autowired
@@ -33,21 +33,21 @@ public class PersonServices {
 //        person.setSobrenome("Ribeiro");
 //        person.setEndereco("Gamboa do morro - Cairu - Bahia");
 //        person.setGenero("Masculino");
-        var entidade =  personRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Person not found"));
+        var entidade = personRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Person not found"));
         return parse(entidade, PersonDTOV1.class);
 
     }
 
     public PersonDTOV1 create(PersonDTOV1 person) {
         logger.info("Creating person " + person);
-        var  entity = parse(person, Person.class);
+        var entity = parse(person, Person.class);
         return parse(personRepository.save(entity), PersonDTOV1.class);
     }
 
 
     public PersonDTOV2 createv2(Person person) {
         logger.info("Creating person " + person);
-        var  entity = converter.converDTOTotEntity(person);
+        var entity = converter.converDTOTotEntity(person);
         return converter.convertEntityTODTO(personRepository.save(entity));
     }
 
@@ -58,7 +58,7 @@ public class PersonServices {
         entity.setSobrenome(person.getSobrenome());
         entity.setEndereco(person.getEndereco());
         entity.setGenero(person.getGenero());
-       return parse( personRepository.save(entity), PersonDTOV1.class);
+        return parse(personRepository.save(entity), PersonDTOV1.class);
     }
 
     public void delete(Long id) {
@@ -73,7 +73,7 @@ public class PersonServices {
 
         logger.info("List person ");
 
-        return parse( personRepository.findAll(), PersonDTOV1.class);
+        return parse(personRepository.findAll(), PersonDTOV1.class);
     }
 //
 //    Person mockPerson(int i) {

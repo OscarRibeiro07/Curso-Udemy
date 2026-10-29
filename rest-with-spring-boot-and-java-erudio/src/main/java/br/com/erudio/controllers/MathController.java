@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/math")
 public class MathController {
 
-    private SimpleMath math = new SimpleMath();
+    private final SimpleMath math = new SimpleMath();
 
 
     // http://localhost:8080/math/sum/3/5

@@ -21,4 +21,4 @@ logging:
     # DEFINE CAMADA ONDE DEVE TESTAR/ EXECITAR O LOG
     #br.com.erudio:
     # ROOT DEFINE TODA A CAMADA E NÃO ESPECIFICO
-     root: INFO
+    root: INFO

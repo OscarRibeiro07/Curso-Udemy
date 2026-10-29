@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TesteLogController {
 
-    private Logger logger = LoggerFactory.getLogger(TesteLogController.class.getName());
+    private final Logger logger = LoggerFactory.getLogger(TesteLogController.class.getName());
 
     @GetMapping("/test")
     public String testLog() {

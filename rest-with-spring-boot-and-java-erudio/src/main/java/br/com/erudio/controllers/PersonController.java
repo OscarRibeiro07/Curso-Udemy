@@ -16,11 +16,9 @@ import java.util.List;
 public class PersonController {
 
 
-
     // chamada de injeção de dependencia
     @Autowired
     private PersonServices personServices;
-
 
 
     @GetMapping(value = "/{id}",
@@ -62,8 +60,8 @@ public class PersonController {
 
     @DeleteMapping(value = "/{id}")
     public ResponseEntity<?> delete(@PathVariable("id") Long id) {
-            personServices.delete(id);
-            return ResponseEntity.noContent().build();
+        personServices.delete(id);
+        return ResponseEntity.noContent().build();
     }
 
 
