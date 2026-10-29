@@ -8,6 +8,7 @@
 *Este curso visa aprimorar conhecimentos do basico ao avançado do mundo do desenvolvimento java
 com Springs, partido desde o fundamento teorico das criaçãoes do mundo web a criações
 escalaveis de APIS*
+
 ---
 
 ## Projeto - Spring Boot Framework 2026: Do 0 á AWS e Google cloud com Java, Docker e Kubernets
@@ -29,16 +30,14 @@ escalaveis de APIS*
 
 ## Listas de Implementações realizadas
 
-- [x] Feature
-- [ ] Feature
-- [x] ~~Feature riscada~~
-- [ ] Feature
+- [x] rest-with-spring-boot-and-java-erudio
+- [ ] 
 
-*As implementações realizadas a cima serão as features/branchs implementadas, cadas feature tera
-seu readme que detalhara o intuito de sua criação*
-
+*A cima são as features/branchs implementadas, cadas feature tera
+seu readme que detalhara o intuito de sua criação com base nos commits*
+ 
 
 </p>
 
 
-[^1]: Ultima atualização 09/10/2026.
+[^1]: Ultima atualização 14/10/2026.
