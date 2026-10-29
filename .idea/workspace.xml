@@ -4,60 +4,112 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bcd7644a-864b-4d41-b239-a041436bed30" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/controllers/GreetingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/rest-with-spring-boot-and-java-erudio/src/main/java/br/com/erudio/controllers/GreetingController.java" afterDir="false" />
+    <list default="true" id="bbe8e194-a5e1-42d1-8cd1-3aa29bc18ab8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/controllers/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/dto/v1/PersonDTOV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/dto/v1/PersonDTOV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/mapper/custom/PersonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/mapper/custom/PersonMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/service/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/service/PersonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="5c5acf5b-9a3b-4d51-a04a-d845071b45d9" value="" />
+      <entry key="ed5dad01-128c-4348-a950-153959990578" value="" />
+    </colors>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3,
-  "fromUser": false
+  "customColor": "",
+  "associatedIndex": 3
 }]]></component>
-  <component name="ProjectId" id="3KZRbpV0AKDlltnNd046FRj1qkt" />
+  <component name="ProjectId" id="3LMVshdiCc91sTY7wr2K5HiDXmX" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.MigrationsWithFlywayApplicationTests.executor": "Run",
+    "Maven.MigrationsWithFlyway [clean,compile].executor": "Run",
+    "Maven.MigrationsWithFlyway [clean,install...].executor": "Run",
+    "Maven.MigrationsWithFlyway [compile].executor": "Run",
+    "Maven.MigrationsWithFlyway [install].executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "Spring Boot.Startup.executor": "Run",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.MigrationsWithFlywayApplication (1).executor": "Run",
+    "Spring Boot.MigrationsWithFlywayApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "rest-whit-spring-boot-and-java-erudio",
+    "git-widget-placeholder": "rest-with-spring-boot-and-java-erudio",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Workspace/Cursos/Udemy/CustomSerealizationJSON/src/main/resources",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm"
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Startup" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\Cursos\Udemy\CustomSerealizationJSON\src\main\resources" />
+      <recent name="C:\Workspace\Cursos\Udemy\CustomSerealizationJSON\src\main\java\br\com\erudio" />
+      <recent name="C:\Workspace\Cursos\Udemy\CustomSerealizationJSON\src\main\java" />
+      <recent name="C:\Workspace\Cursos\Udemy\MigrationsWithFlyway\src\main\resources\db\migrations" />
+      <recent name="C:\Workspace\Cursos\Udemy\MigrationsWithFlyway\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Workspace\Cursos\Udemy\CustomSerealizationJSON\src\main" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean compile" />
+      <command value="mvn compile" />
+      <command value="mvn install" />
+      <command value="mvn clean install -DskipTests" />
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CustomSerializationJsonApplication">
+    <configuration name="MigrationsWithFlywayApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MigrationsWithFlyway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.erudio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.erudio" />
+      <option name="MAIN_CLASS_NAME" value="br.com.erudio.MigrationsWithFlywayApplicationTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <envs>
+        <env name="DB_PASSWORDS" value="MasterTechSolutionsSoft2023" />
+        <env name="DB_USERS" value="postgres" />
+      </envs>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomSerializationJsonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="rest-with-spring-boot-and-java-erudio" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.Startup" />
+      <module name="CustomSerealizationJSON" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.CustomSerializationJsonApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.erudio.*" />
@@ -68,9 +120,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MigrationsWithFlywayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="envFilePaths">
+        <option value="$PROJECT_DIR$/../userpass.env" />
+      </option>
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="MigrationsWithFlyway" />
+      <selectedOptions>
+        <option name="environmentVariables" />
+      </selectedOptions>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.MigrationsWithFlywayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.erudio.migrationswithflyway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.MigrationsWithFlywayApplicationTests" />
+      <item itemvalue="Spring Boot.CustomSerializationJsonApplication" />
+      <item itemvalue="Spring Boot.MigrationsWithFlywayApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.Startup" />
+        <item itemvalue="Spring Boot.CustomSerializationJsonApplication" />
+        <item itemvalue="Spring Boot.MigrationsWithFlywayApplication" />
+        <item itemvalue="JUnit.MigrationsWithFlywayApplicationTests" />
       </list>
     </recent_temporary>
   </component>
@@ -84,11 +163,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bcd7644a-864b-4d41-b239-a041436bed30" name="Changes" comment="" />
-      <created>1791763182680</created>
+      <changelist id="bbe8e194-a5e1-42d1-8cd1-3aa29bc18ab8" name="Changes" comment="" />
+      <created>1793264133764</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1791763182680</updated>
+      <updated>1793264133764</updated>
     </task>
     <servers />
   </component>

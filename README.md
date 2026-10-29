@@ -1,4 +1,5 @@
 # Meus Cursos Udemy
+
 *Repositorio criado para demonstrar conhecimentos adquiridos nos cursos da udemy*
 <p>
 
@@ -9,8 +10,11 @@ com Springs, partido desde o fundamento teorico das criaçãoes do mundo web a c
 escalaveis de APIS*
 
 ---
+
 ## Projeto - Spring Boot Framework 2026: Do 0 á AWS e Google cloud com Java, Docker e Kubernets
- ## Tecnologias utilizadas:
+
+## Tecnologias utilizadas:
+
 * **Java**
 * **Spring Boot**
 * **Spring Framework**
@@ -18,13 +22,14 @@ escalaveis de APIS*
 * **Verisionamento de codigo (git, github)**
 * **Deployment e varias plataformas (AWS, Google)**
 * **Docker, Kubernets, K8s**
-* **Testes Unitarios(Mockito, JUnit)**
+* **Testes Unitarios (Mockito, JUnit)**
 * **Integração com IA + Spring**
 * **Consumo de APIs Externas**
 
 ---
 
 ## Listas de Implementações realizadas
+
 - [x] rest-with-spring-boot-and-java-erudio
 - [ ] 
 
