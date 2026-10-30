@@ -5,11 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe8e194-a5e1-42d1-8cd1-3aa29bc18ab8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/serialize/SerializeGenero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/controllers/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/dto/v1/PersonDTOV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/dto/v1/PersonDTOV1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/resources/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/resources/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/br/com/erudio/dto/v1/PersonDTOV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/br/com/erudio/dto/v1/PersonDTOV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/br/com/erudio/dto/v2/PersonDTOV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/br/com/erudio/dto/v2/PersonDTOV2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +43,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -61,6 +72,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "JUnit.MigrationsWithFlywayApplicationTests.executor": "Run",
+    "Maven.CustomSerealizationJSON [install].executor": "Run",
     "Maven.MigrationsWithFlyway [clean,compile].executor": "Run",
     "Maven.MigrationsWithFlyway [clean,install...].executor": "Run",
     "Maven.MigrationsWithFlyway [compile].executor": "Run",
@@ -74,7 +86,7 @@
     "Spring Boot.MigrationsWithFlywayApplication (1).executor": "Run",
     "Spring Boot.MigrationsWithFlywayApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "feat/serializeJson",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Workspace/Cursos/Udemy/CustomSerealizationJSON/src/main/resources",
     "node.js.detected.package.jshint": "true",
@@ -104,8 +116,8 @@
     <option name="myCommands">
       <command value="mvn clean compile" />
       <command value="mvn compile" />
-      <command value="mvn install" />
       <command value="mvn clean install -DskipTests" />
+      <command value="mvn install" />
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.CustomSerializationJsonApplication">

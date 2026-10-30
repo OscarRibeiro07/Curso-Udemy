@@ -1,9 +1,10 @@
 package br.com.erudio.dto.v1;
 
+import br.com.erudio.serialize.SerializeGenero;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import tools.jackson.databind.annotation.JsonSerialize;
 
 import java.util.Date;
 import java.util.Objects;
@@ -17,8 +18,12 @@ public class PersonDTOV1 {
     //muda nome das variaveis da resposta json
     @JsonProperty("last_name")
     private String nome;
+    @JsonSerialize(using = SerializeGenero.class)
+    private String genero;
     private String sobrenome;
     private String endereco;
+    @JsonFormat(pattern = "dd/MM/yyyy")
+    private Date dataNascimento;
 
     @Override
     public boolean equals(Object o) {
@@ -39,11 +44,8 @@ public class PersonDTOV1 {
         this.dataNascimento = dataNascimento;
     }
 
-    // nao mostra informação na busca
-    @JsonIgnore
-    private String genero;
-    @JsonFormat(pattern = "dd/MM/yyyy")
-    private Date dataNascimento;
+
+
 
     public PersonDTOV1() {
     }
