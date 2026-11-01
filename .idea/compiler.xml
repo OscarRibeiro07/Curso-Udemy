@@ -9,12 +9,16 @@
         <module name="CustomSerealizationJSON" />
         <module name="rest-with-spring-boot-and-java-erudio" />
         <module name="MigrationsWithFlyway" />
-        <module name="rest-with-spring-boot-and-java-erudio (1)" />
+        <module name="ContentNegotiation" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="rest-with-spring-boot-and-java-erudio (1)" target="21" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ContentNegotiation" options="-parameters" />
       <module name="CustomSerealizationJSON" options="-parameters" />
       <module name="MigrationsWithFlyway" options="-parameters" />
       <module name="rest-with-spring-boot-and-java-erudio" options="-parameters" />

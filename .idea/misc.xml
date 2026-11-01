@@ -8,6 +8,8 @@
         <option value="$PROJECT_DIR$/MigrationsWithFlyway/pom.xml" />
         <option value="$PROJECT_DIR$/CustomSerealizationJSON/pom.xml" />
         <option value="$PROJECT_DIR$/13_ContentNegotiation/rest-with-spring-boot-and-java-erudio/pom.xml" />
+        <option value="$PROJECT_DIR$/ContextNegotiation/pom.xml" />
+        <option value="$PROJECT_DIR$/ContentNegotiation/pom.xml" />
       </list>
     </option>
   </component>
