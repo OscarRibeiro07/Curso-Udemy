@@ -1,9 +1,13 @@
 package br.com.erudio.dto.v1;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
+import br.com.erudio.serialize.SerializeGenero;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import tools.jackson.databind.annotation.JsonSerialize;
 
+import java.util.Date;
 import java.util.Objects;
 
 // reordena resposta json postman
@@ -14,25 +18,48 @@ public class PersonDTOV1 {
     private Long id;
     //muda nome das variaveis da resposta json
     @JsonProperty("last_name")
+    @JsonInclude(JsonInclude.Include.NON_NULL)
     private String nome;
+    @JsonSerialize(using = SerializeGenero.class)
+    private String genero;
     private String sobrenome;
     private String endereco;
-    // nao mostra informação na busca
-    @JsonIgnore
-    private String genero;
-
-    public PersonDTOV1() {
-    }
+    @JsonFormat(pattern = "dd/MM/yyyy")
+    private Date dataNascimento;
+    @JsonInclude(JsonInclude.Include.NON_EMPTY)
+    private String phoneNumber;
 
     @Override
     public boolean equals(Object o) {
-        if (!(o instanceof PersonDTOV1 personDTO)) return false;
-        return Objects.equals(id, personDTO.id) && Objects.equals(nome, personDTO.nome) && Objects.equals(sobrenome, personDTO.sobrenome) && Objects.equals(endereco, personDTO.endereco) && Objects.equals(genero, personDTO.genero);
+        if (!(o instanceof PersonDTOV1 that)) return false;
+        return Objects.equals(id, that.id) && Objects.equals(nome, that.nome) && Objects.equals(genero, that.genero) && Objects.equals(sobrenome, that.sobrenome) && Objects.equals(endereco, that.endereco) && Objects.equals(dataNascimento, that.dataNascimento) && Objects.equals(phoneNumber, that.phoneNumber);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nome, sobrenome, endereco, genero);
+        return Objects.hash(id, nome, genero, sobrenome, endereco, dataNascimento, phoneNumber);
+    }
+
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+    public void setPhoneNumber(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
+
+    public Date getDataNascimento() {
+        return dataNascimento;
+    }
+
+    public void setDataNascimento(Date dataNascimento) {
+        this.dataNascimento = dataNascimento;
+    }
+
+
+
+
+    public PersonDTOV1() {
     }
 
     public Long getId() {
