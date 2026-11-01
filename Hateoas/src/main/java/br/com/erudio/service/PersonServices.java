@@ -1,5 +1,6 @@
 package br.com.erudio.service;
 
+import br.com.erudio.controllers.PersonController;
 import br.com.erudio.data.dto.PersonDTO;
 import br.com.erudio.exception.ResourceNotFoundException;
 import br.com.erudio.mapper.custom.PersonMapper;
@@ -13,6 +14,8 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.logging.Logger;
 
 import static br.com.erudio.mapper.ObjectMapper.parse;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
+import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
 @Service
 public class PersonServices {
@@ -28,7 +31,13 @@ public class PersonServices {
         logger.info("Finding person by id " + id);
         Person person = new Person();
         var entidade = personRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Person not found"));
-        return parse(entidade, PersonDTO.class);
+        var dto = parse(entidade, PersonDTO.class);
+        dto.add(linkTo(methodOn(PersonController.class).findById(id)).withSelfRel().withType("GET"));
+        dto.add(linkTo(methodOn(PersonController.class).findAll()).withRel("Busca Todos").withType("GET"));
+        dto.add(linkTo(methodOn(PersonController.class).create(dto)).withRel("Cadasro").withType("POST"));
+        dto.add(linkTo(methodOn(PersonController.class).delete(id)).withRel("Deletar").withType("DELETE"));
+        dto.add(linkTo(methodOn(PersonController.class).update(dto)).withRel("Atualizar").withType("UPDATE"));
+        return dto;
 
     }
 
