@@ -5,26 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe8e194-a5e1-42d1-8cd1-3aa29bc18ab8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/serialize/SerializeGenero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/data_sources_history.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/controllers/PersonController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/dto/v1/PersonDTOV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/dto/v1/PersonDTOV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/resources/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/resources/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/br/com/erudio/controllers/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/br/com/erudio/controllers/PersonController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/br/com/erudio/dto/v1/PersonDTOV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/br/com/erudio/dto/v1/PersonDTOV1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/br/com/erudio/dto/v2/PersonDTOV2.class" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/br/com/erudio/dto/v2/PersonDTOV2.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DatabaseLocalColorSettings">
-    <colors>
-      <entry key="5c5acf5b-9a3b-4d51-a04a-d845071b45d9" value="" />
-      <entry key="ed5dad01-128c-4348-a950-153959990578" value="" />
-    </colors>
   </component>
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
@@ -69,37 +60,37 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.MigrationsWithFlywayApplicationTests.executor": "Run",
-    "Maven.CustomSerealizationJSON [install].executor": "Run",
-    "Maven.MigrationsWithFlyway [clean,compile].executor": "Run",
-    "Maven.MigrationsWithFlyway [clean,install...].executor": "Run",
-    "Maven.MigrationsWithFlyway [compile].executor": "Run",
-    "Maven.MigrationsWithFlyway [install].executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "Spring Boot.CustomSerializationJsonApplication.executor": "Run",
-    "Spring Boot.MigrationsWithFlywayApplication (1).executor": "Run",
-    "Spring Boot.MigrationsWithFlywayApplication.executor": "Run",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feat/serializeJson",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Workspace/Cursos/Udemy/CustomSerealizationJSON/src/main/resources",
-    "node.js.detected.package.jshint": "true",
-    "node.js.selected.package.jshint": "",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.MigrationsWithFlywayApplicationTests.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.CustomSerealizationJSON [install].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.MigrationsWithFlyway [clean,compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.MigrationsWithFlyway [clean,install...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.MigrationsWithFlyway [compile].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.MigrationsWithFlyway [install].executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Spring Boot.CustomSerializationJsonApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MigrationsWithFlywayApplication (1).executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.MigrationsWithFlywayApplication.executor&quot;: &quot;Run&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feat/serializeJson&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Workspace/Cursos/Udemy/CustomSerealizationJSON/src/main/resources&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Workspace\Cursos\Udemy\CustomSerealizationJSON\src\main\resources" />

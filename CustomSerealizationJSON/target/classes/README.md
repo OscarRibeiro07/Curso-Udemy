@@ -21,6 +21,8 @@ Variavel ocm esta notação é ignorada no retorno
 
 *PARTICULARIDADES:*
 
+Jackson foi necessario para reconhecimento da classe ValueSerialize e JsonSerializer
+
 JsonSerializer<String> para conversão atualizou nesta versão para ValueSerialize, para que possa utilizar a notação do
 @JsonSerialize(using = SerializeGenero.class)
 

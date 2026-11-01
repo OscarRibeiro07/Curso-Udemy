@@ -28,6 +28,7 @@ public class PersonController {
     public PersonDTOV1 findById(@PathVariable(value = "id") Long id) {
         var person = personServices.findById(id);
         person.setDataNascimento(new Date());
+        person.setPhoneNumber("+55 34 998666598");
         return person;
     }
 
