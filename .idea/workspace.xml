@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe8e194-a5e1-42d1-8cd1-3aa29bc18ab8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Hateoas/src/main/java/br/com/erudio/HateoasApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ContentNegotiation/target/classes/br/com/erudio/config/ConfigWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/ContentNegotiation/target/classes/br/com/erudio/config/ConfigWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hateoas/src/main/java/br/com/erudio/data/dto/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hateoas/src/main/java/br/com/erudio/data/dto/PersonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hateoas/src/test/java/br/com/erudio/HateoasApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hateoas/src/test/java/br/com/erudio/HateoasApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,10 +84,11 @@
     "Spring Boot.ContextNegotiationStartup.executor": "Run",
     "Spring Boot.CustomSerializationJsonApplication (1).executor": "Run",
     "Spring Boot.CustomSerializationJsonApplication.executor": "Run",
+    "Spring Boot.HateoasApplication.executor": "Run",
     "Spring Boot.MigrationsWithFlywayApplication (1).executor": "Run",
     "Spring Boot.MigrationsWithFlywayApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "feat/content-negotiation",
+    "git-widget-placeholder": "HATEOAS",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Workspace/Cursos/Udemy/ContentNegotiation/src/main/java/br/com/erudio",
     "node.js.detected.package.jshint": "true",
@@ -108,6 +114,7 @@
       <recent name="C:\Workspace\Cursos\Udemy\CustomSerealizationJSON\src\main" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.erudio" />
       <recent name="br.com.erudio.model" />
       <recent name="br.com.erudio.data.dto" />
       <recent name="br.com.erudio.service" />
@@ -122,7 +129,7 @@
       <command value="mvn clean install -DskipTests" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ContentNegotiationApplication">
+  <component name="RunManager" selected="Spring Boot.HateoasApplication">
     <configuration name="ContentNegotiationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
       <module name="ContentNegotiation" />
@@ -151,12 +158,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HateoasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
+      <module name="rest-with-spring-boot-and-java-erudio (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.HateoasApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.erudio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Spring Boot.ContentNegotiationApplication" />
       <item itemvalue="Spring Boot.ContentNegotiationStartup" />
+      <item itemvalue="Spring Boot.HateoasApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.HateoasApplication" />
         <item itemvalue="Spring Boot.ContentNegotiationApplication" />
         <item itemvalue="Spring Boot.ContentNegotiationStartup" />
       </list>

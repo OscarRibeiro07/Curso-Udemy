@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/13_ContentNegotiation/rest-with-spring-boot-and-java-erudio/pom.xml" />
         <option value="$PROJECT_DIR$/ContextNegotiation/pom.xml" />
         <option value="$PROJECT_DIR$/ContentNegotiation/pom.xml" />
+        <option value="$PROJECT_DIR$/Hateoas/pom.xml" />
       </list>
     </option>
   </component>
