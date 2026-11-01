@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe8e194-a5e1-42d1-8cd1-3aa29bc18ab8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hateoas/src/main/java/br/com/erudio/service/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hateoas/src/main/java/br/com/erudio/service/PersonServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hateoas/target/classes/br/com/erudio/data/dto/PersonDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hateoas/target/classes/br/com/erudio/data/dto/PersonDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Hateoas/target/classes/br/com/erudio/service/PersonServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/Hateoas/target/classes/br/com/erudio/service/PersonServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hateoas/src/main/java/br/com/erudio/data/dto/PersonDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hateoas/src/main/java/br/com/erudio/data/dto/PersonDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Hateoas/src/main/java/br/com/erudio/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/Hateoas/src/main/java/br/com/erudio/model/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
