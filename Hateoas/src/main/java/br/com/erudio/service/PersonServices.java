@@ -76,10 +76,10 @@ public class PersonServices {
     }
 
     private static void addHateoasLinksRef(PersonDTO dto) {
-        dto.add(linkTo(methodOn(PersonController.class).update(dto)).withSelfRel().withType("UPDATE"));
-        dto.add(linkTo(methodOn(PersonController.class).create(dto)).withRel("Cadastro").withType("POST"));
-        dto.add(linkTo(methodOn(PersonController.class).findAll()).withRel("Busca Todos").withType("GET"));
-        dto.add(linkTo(methodOn(PersonController.class).findById(dto.getId())).withRel("Busca Por Id").withType("GET"));
+        dto.add(linkTo(methodOn(PersonController.class).update(dto)).withRel("Atualizar").withType("UPDATE"));
+        dto.add(linkTo(methodOn(PersonController.class).create(dto)).withRel("Cadastrar").withType("POST"));
+        dto.add(linkTo(methodOn(PersonController.class).findAll()).withRel("Buscar").withType("GET"));
+        dto.add(linkTo(methodOn(PersonController.class).findById(dto.getId())).withRel("Buscar Por Id").withType("GET"));
         dto.add(linkTo(methodOn(PersonController.class).delete(dto.getId())).withRel("Deletar").withType("DELETE"));
     }
 }
