@@ -14,6 +14,7 @@ import java.util.concurrent.atomic.AtomicLong;
 import java.util.logging.Logger;
 
 import static br.com.erudio.mapper.ObjectMapper.parse;
+import static org.springframework.data.jpa.domain.AbstractPersistable_.id;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.linkTo;
 import static org.springframework.hateoas.server.mvc.WebMvcLinkBuilder.methodOn;
 
@@ -32,11 +33,7 @@ public class PersonServices {
         Person person = new Person();
         var entidade = personRepository.findById(id).orElseThrow(() -> new ResourceNotFoundException("Person not found"));
         var dto = parse(entidade, PersonDTO.class);
-        dto.add(linkTo(methodOn(PersonController.class).findById(id)).withSelfRel().withType("GET"));
-        dto.add(linkTo(methodOn(PersonController.class).findAll()).withRel("Busca Todos").withType("GET"));
-        dto.add(linkTo(methodOn(PersonController.class).create(dto)).withRel("Cadasro").withType("POST"));
-        dto.add(linkTo(methodOn(PersonController.class).delete(id)).withRel("Deletar").withType("DELETE"));
-        dto.add(linkTo(methodOn(PersonController.class).update(dto)).withRel("Atualizar").withType("UPDATE"));
+        addHateoasLinksRef(dto);
         return dto;
 
     }
@@ -44,7 +41,9 @@ public class PersonServices {
     public PersonDTO create(PersonDTO person) {
         logger.info("Creating person " + person);
         var entity = parse(person, Person.class);
-        return parse(personRepository.save(entity), PersonDTO.class);
+        var dto = parse(personRepository.save(entity), PersonDTO.class);
+        addHateoasLinksRef(dto);
+        return dto;
     }
 
     public PersonDTO update(PersonDTO person) {
@@ -54,20 +53,33 @@ public class PersonServices {
         entity.setSobrenome(person.getSobrenome());
         entity.setEndereco(person.getEndereco());
         entity.setGenero(person.getGenero());
-        return parse(personRepository.save(entity), PersonDTO.class);
+        var dto = parse(personRepository.save(entity), PersonDTO.class);
+        addHateoasLinksRef(dto);
+
+        return dto;
     }
 
     public void delete(Long id) {
         logger.info("Delete person ");
         personRepository.findById(id).orElseThrow();
         personRepository.deleteById(id);
+        addHateoasLinksRef(new PersonDTO());
 
 
     }
 
     public List<PersonDTO> findAll() {
         logger.info("List person ");
-        return parse(personRepository.findAll(), PersonDTO.class);
+        var persons =  parse(personRepository.findAll(), PersonDTO.class);
+        persons.forEach(PersonServices::addHateoasLinksRef);
+        return persons;
     }
 
+    private static void addHateoasLinksRef(PersonDTO dto) {
+        dto.add(linkTo(methodOn(PersonController.class).update(dto)).withSelfRel().withType("UPDATE"));
+        dto.add(linkTo(methodOn(PersonController.class).create(dto)).withRel("Cadastro").withType("POST"));
+        dto.add(linkTo(methodOn(PersonController.class).findAll()).withRel("Busca Todos").withType("GET"));
+        dto.add(linkTo(methodOn(PersonController.class).findById(dto.getId())).withRel("Busca Por Id").withType("GET"));
+        dto.add(linkTo(methodOn(PersonController.class).delete(dto.getId())).withRel("Deletar").withType("DELETE"));
+    }
 }
