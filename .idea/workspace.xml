@@ -80,7 +80,7 @@
     "Spring Boot.MigrationsWithFlywayApplication (1).executor": "Run",
     "Spring Boot.MigrationsWithFlywayApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "HATEOAS",
+    "git-widget-placeholder": "MOCKITO",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Workspace/Cursos/Udemy/ContentNegotiation/src/main/java/br/com/erudio",
     "node.js.detected.package.jshint": "true",
@@ -120,62 +120,6 @@
       <command value="mvn install" />
       <command value="mvn clean install -DskipTests" />
     </option>
-  </component>
-  <component name="RunManager" selected="Spring Boot.HateoasApplication">
-    <configuration name="ContentNegotiationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="ContentNegotiation" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.ContentNegotiationApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.erudio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContentNegotiationStartup" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="rest-with-spring-boot-and-java-erudio (1)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.ContentNegotiationStartup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.erudio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HateoasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="rest-with-spring-boot-and-java-erudio (1)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.HateoasApplication" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.erudio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Spring Boot.ContentNegotiationApplication" />
-      <item itemvalue="Spring Boot.ContentNegotiationStartup" />
-      <item itemvalue="Spring Boot.HateoasApplication" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.HateoasApplication" />
-        <item itemvalue="Spring Boot.ContentNegotiationApplication" />
-        <item itemvalue="Spring Boot.ContentNegotiationStartup" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>

@@ -11,6 +11,7 @@
         <option value="$PROJECT_DIR$/ContextNegotiation/pom.xml" />
         <option value="$PROJECT_DIR$/ContentNegotiation/pom.xml" />
         <option value="$PROJECT_DIR$/Hateoas/pom.xml" />
+        <option value="$PROJECT_DIR$/Mockito/pom.xml" />
       </list>
     </option>
   </component>
