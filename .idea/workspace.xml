@@ -6,11 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="bbe8e194-a5e1-42d1-8cd1-3aa29bc18ab8" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/controllers/PersonController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/dto/v1/PersonDTOV1.java" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/src/main/java/br/com/erudio/dto/v1/PersonDTOV1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/br/com/erudio/controllers/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/br/com/erudio/controllers/PersonController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/br/com/erudio/dto/v1/PersonDTOV1.class" beforeDir="false" afterPath="$PROJECT_DIR$/CustomSerealizationJSON/target/classes/br/com/erudio/dto/v1/PersonDTOV1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ContentNegotiation/target/classes/br/com/erudio/config/ConfigWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/ContentNegotiation/target/classes/br/com/erudio/config/ConfigWeb.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,82 +56,77 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JUnit.MigrationsWithFlywayApplicationTests.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.CustomSerealizationJSON [install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MigrationsWithFlyway [clean,compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MigrationsWithFlyway [clean,install...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MigrationsWithFlyway [compile].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.MigrationsWithFlyway [install].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.CustomSerializationJsonApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MigrationsWithFlywayApplication (1).executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.MigrationsWithFlywayApplication.executor&quot;: &quot;Run&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feat/serializeJson&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Workspace/Cursos/Udemy/CustomSerealizationJSON/src/main/resources&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.MigrationsWithFlywayApplicationTests.executor": "Run",
+    "JUnit.StartupTests.executor": "Run",
+    "Maven.ContentNegotiation [clean,install...].executor": "Run",
+    "Maven.CustomSerealizationJSON [install].executor": "Run",
+    "Maven.MigrationsWithFlyway [clean,compile].executor": "Run",
+    "Maven.MigrationsWithFlyway [clean,install...].executor": "Run",
+    "Maven.MigrationsWithFlyway [compile].executor": "Run",
+    "Maven.MigrationsWithFlyway [install].executor": "Run",
+    "Maven.rest-with-spring-boot-and-java-erudio [clean...].executor": "Run",
+    "Maven.rest-with-spring-boot-and-java-erudio [install].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.ContentNegotiationApplication.executor": "Run",
+    "Spring Boot.ContentNegotiationStarter.executor": "Run",
+    "Spring Boot.ContentNegotiationStartup.executor": "Run",
+    "Spring Boot.ContextNegotiationStartup.executor": "Run",
+    "Spring Boot.CustomSerializationJsonApplication (1).executor": "Run",
+    "Spring Boot.CustomSerializationJsonApplication.executor": "Run",
+    "Spring Boot.MigrationsWithFlywayApplication (1).executor": "Run",
+    "Spring Boot.MigrationsWithFlywayApplication.executor": "Run",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "feat/content-negotiation",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Workspace/Cursos/Udemy/ContentNegotiation/src/main/java/br/com/erudio",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Workspace\Cursos\Udemy\ContentNegotiation\src\main\java\br\com\erudio" />
+      <recent name="C:\Workspace\Cursos\Udemy\ContentNegotiation\src\main\resources" />
+      <recent name="C:\Workspace\Cursos\Udemy\13_ContentNegotiation\rest-with-spring-boot-and-java-erudio\src\main\java" />
+      <recent name="C:\Workspace\Cursos\Udemy\13_ContentNegotiation\rest-with-spring-boot-and-java-erudio\src\main\java\br\com\erudio" />
       <recent name="C:\Workspace\Cursos\Udemy\CustomSerealizationJSON\src\main\resources" />
-      <recent name="C:\Workspace\Cursos\Udemy\MigrationsWithFlyway\src\main\resources" />
-      <recent name="C:\Workspace\Cursos\Udemy\CustomSerealizationJSON\src\main\java\br\com\erudio" />
-      <recent name="C:\Workspace\Cursos\Udemy\CustomSerealizationJSON\src\main\java" />
-      <recent name="C:\Workspace\Cursos\Udemy\MigrationsWithFlyway\src\main\resources\db\migrations" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Workspace\Cursos\Udemy\CustomSerealizationJSON\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.com.erudio.model" />
+      <recent name="br.com.erudio.data.dto" />
+      <recent name="br.com.erudio.service" />
+      <recent name="br.com.erudio.controller" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn clean compile" />
       <command value="mvn compile" />
-      <command value="mvn clean install -DskipTests" />
       <command value="mvn install" />
+      <command value="mvn clean install -DskipTests" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.CustomSerializationJsonApplication">
-    <configuration name="MigrationsWithFlywayApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="MigrationsWithFlyway" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.erudio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.com.erudio" />
-      <option name="MAIN_CLASS_NAME" value="br.com.erudio.MigrationsWithFlywayApplicationTests" />
-      <option name="METHOD_NAME" value="" />
-      <option name="TEST_OBJECT" value="class" />
-      <envs>
-        <env name="DB_PASSWORDS" value="MasterTechSolutionsSoft2023" />
-        <env name="DB_USERS" value="postgres" />
-      </envs>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomSerializationJsonApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.ContentNegotiationApplication">
+    <configuration name="ContentNegotiationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="CustomSerealizationJSON" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.CustomSerializationJsonApplication" />
+      <module name="ContentNegotiation" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.ContentNegotiationApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.erudio.*" />
@@ -146,19 +137,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MigrationsWithFlywayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="envFilePaths">
-        <option value="$PROJECT_DIR$/../userpass.env" />
-      </option>
+    <configuration name="ContentNegotiationStartup" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="MigrationsWithFlyway" />
-      <selectedOptions>
-        <option name="environmentVariables" />
-      </selectedOptions>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.MigrationsWithFlywayApplication" />
+      <module name="rest-with-spring-boot-and-java-erudio (1)" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.ContentNegotiationStartup" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.com.erudio.migrationswithflyway.*" />
+          <option name="PATTERN" value="br.com.erudio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,15 +152,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.MigrationsWithFlywayApplicationTests" />
-      <item itemvalue="Spring Boot.CustomSerializationJsonApplication" />
-      <item itemvalue="Spring Boot.MigrationsWithFlywayApplication" />
+      <item itemvalue="Spring Boot.ContentNegotiationApplication" />
+      <item itemvalue="Spring Boot.ContentNegotiationStartup" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CustomSerializationJsonApplication" />
-        <item itemvalue="Spring Boot.MigrationsWithFlywayApplication" />
-        <item itemvalue="JUnit.MigrationsWithFlywayApplicationTests" />
+        <item itemvalue="Spring Boot.ContentNegotiationApplication" />
+        <item itemvalue="Spring Boot.ContentNegotiationStartup" />
       </list>
     </recent_temporary>
   </component>
