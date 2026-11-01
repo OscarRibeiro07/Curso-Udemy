@@ -14,7 +14,10 @@ public class ConfigWeb implements WebMvcConfigurer {
                 .parameterName("mediaType").ignoreAcceptHeader(true)
                 .useRegisteredExtensionsOnly(false)
                 .defaultContentType(MediaType.APPLICATION_JSON)
-                .
+                .mediaType("Json", MediaType.APPLICATION_JSON)
+                .mediaType("xml", MediaType.APPLICATION_XML)
+                .mediaType("html", MediaType.TEXT_HTML)
+                .mediaType("txt", MediaType.TEXT_PLAIN);
 
     }
 }
