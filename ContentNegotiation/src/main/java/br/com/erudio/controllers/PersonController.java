@@ -22,7 +22,7 @@ public class PersonController {
 
 
     @GetMapping(value = "/{id}",
-            produces = MediaType.APPLICATION_JSON_VALUE)
+            produces = {MediaType.APPLICATION_ATOM_XML_VALUE,MediaType.APPLICATION_JSON_VALUE})
     public PersonDTOV1 findById(@PathVariable(value = "id") Long id) {
         return personServices.findById(id);
     }
@@ -42,8 +42,8 @@ public class PersonController {
     }
 
     @PostMapping(value = "/v2",
-            consumes = MediaType.APPLICATION_JSON_VALUE,
-            produces = MediaType.APPLICATION_JSON_VALUE
+            consumes = {MediaType.APPLICATION_ATOM_XML_VALUE,MediaType.APPLICATION_JSON_VALUE},
+            produces = {MediaType.APPLICATION_ATOM_XML_VALUE,MediaType.APPLICATION_JSON_VALUE}
     )
     public PersonDTOV2 createV2(@RequestBody Person person) {
         return personServices.createv2(person);
@@ -51,8 +51,8 @@ public class PersonController {
 
 
     @PutMapping(value = "/{id}",
-            consumes = MediaType.APPLICATION_JSON_VALUE,
-            produces = MediaType.APPLICATION_JSON_VALUE
+            consumes = {MediaType.APPLICATION_ATOM_XML_VALUE,MediaType.APPLICATION_JSON_VALUE},
+            produces = {MediaType.APPLICATION_ATOM_XML_VALUE,MediaType.APPLICATION_JSON_VALUE}
     )
     public PersonDTOV1 update(@RequestBody PersonDTOV1 person) {
         return personServices.update(person);
