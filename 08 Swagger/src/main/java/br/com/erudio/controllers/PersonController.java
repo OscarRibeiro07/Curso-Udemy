@@ -1,7 +1,6 @@
 package br.com.erudio.controllers;
 
 import br.com.erudio.data.dto.PersonDTO;
-import br.com.erudio.model.Person;
 import br.com.erudio.service.PersonServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
@@ -37,10 +36,7 @@ public class PersonController {
         return personServices.create(person);
     }
 
-    @PostMapping(value = "/v2",
-            consumes = MediaType.APPLICATION_JSON_VALUE,
-            produces = MediaType.APPLICATION_JSON_VALUE
-    )
+
 
     @PutMapping(value = "/{id}",
             consumes = MediaType.APPLICATION_JSON_VALUE,

@@ -3,8 +3,6 @@ package br.com.erudio.mapper.custom;
 import br.com.erudio.model.Person;
 import org.springframework.stereotype.Service;
 
-import java.util.Date;
-
 @Service
 public class PersonMapper {
 

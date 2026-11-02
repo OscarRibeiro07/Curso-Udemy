@@ -5,59 +5,41 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe8e194-a5e1-42d1-8cd1-3aa29bc18ab8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08 Swagger/src/main/java/br/com/erudio/configDoc/OpenAPIConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/configDoc/OpenAPIConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/08 Swagger/target/test-classes/br/com/erudio/DocSwaggerApplicationTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 Swagger/src/main/java/br/com/erudio/DocSwaggerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/08 Swagger/src/main/java/br/com/erudio/DocSwaggerApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/SwaggerApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/controllers/PersonController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/data/dto/PersonDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/exception/ExceptionResponse.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/exception/ResourceNotFoundException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/exception/handler/CustomEntityResponseHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/mapper/ObjectMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/mapper/custom/PersonMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/model/Person.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/repository/PersonRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/service/PersonServices.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/test/java/br/com/erudio/HateoasApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/ContextNegotiationStartup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/HateoasApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/Startup.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/controllers/GreetingController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/controllers/MathController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/controllers/PersonController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/controllers/TesteLogController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/data/dto/PersonDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/data/dto/v1/PersonDTOV1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/data/dto/v2/PersonDTOV2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/exception/ExceptionResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/exception/ResourceNotFoundException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/exception/handler/CustomEntityResponseHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/mapper/ObjectMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/mapper/custom/PersonMapper.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/math/SimpleMath.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/model/Greeting.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/model/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/repository/PersonRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/requestConverters/ConversorNumero.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/service/PersonServices.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/recursos/Evolutionary+Database+Design.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/recursos/Redgate+Flyway+Documentation.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/recursos/What+are+the+possible+values+of+the+Hibernate+DDL+Auto.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/rest-with-spring-boot-and-java-erudio-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/rest-with-spring-boot-and-java-erudio-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/surefire-reports/TEST-br.com.erudio.StartupTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/surefire-reports/br.com.erudio.StartupTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/test-classes/br/com/erudio/StartupTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 rest-with-spring-boot-and-java-erudio/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/01 rest-with-spring-boot-and-java-erudio/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 rest-with-spring-boot-and-java-erudio/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/01 rest-with-spring-boot-and-java-erudio/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 rest-with-spring-boot-and-java-erudio/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/01 rest-with-spring-boot-and-java-erudio/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 rest-with-spring-boot-and-java-erudio/target/surefire-reports/TEST-br.com.erudio.StartupTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/01 rest-with-spring-boot-and-java-erudio/target/surefire-reports/TEST-br.com.erudio.StartupTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01 rest-with-spring-boot-and-java-erudio/target/surefire-reports/br.com.erudio.StartupTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/01 rest-with-spring-boot-and-java-erudio/target/surefire-reports/br.com.erudio.StartupTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/08 Swagger/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/src/main/java/br/com/erudio/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/08 Swagger/src/main/java/br/com/erudio/controllers/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/src/main/java/br/com/erudio/mapper/custom/PersonMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/08 Swagger/src/main/java/br/com/erudio/mapper/custom/PersonMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/src/main/java/br/com/erudio/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/08 Swagger/src/main/java/br/com/erudio/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/src/main/java/br/com/erudio/service/PersonServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/08 Swagger/src/main/java/br/com/erudio/service/PersonServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/08 Swagger/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/08 Swagger/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/ContextNegotiationStartup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/HateoasApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/Startup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/controllers/GreetingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/controllers/MathController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/controllers/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/controllers/PersonController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/controllers/TesteLogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/data/dto/v1/PersonDTOV1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/data/dto/v2/PersonDTOV2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/mapper/custom/PersonMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/mapper/custom/PersonMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/math/SimpleMath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/model/Greeting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/model/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/model/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/requestConverters/ConversorNumero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/service/PersonServices.class" beforeDir="false" afterPath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/service/PersonServices.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/recursos/Evolutionary+Database+Design.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/recursos/Redgate+Flyway+Documentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/recursos/What+are+the+possible+values+of+the+Hibernate+DDL+Auto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/test-classes/br/com/erudio/StartupTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,8 +155,8 @@
     <option name="myCommands">
       <command value="mvn clean compile" />
       <command value="mvn compile" />
-      <command value="mvn install" />
       <command value="mvn clean install -DskipTests" />
+      <command value="mvn install" />
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.DocSwaggerApplication">
