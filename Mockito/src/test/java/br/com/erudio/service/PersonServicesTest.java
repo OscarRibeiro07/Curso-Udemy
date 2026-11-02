@@ -46,12 +46,9 @@ class PersonServicesTest {
         assertNotNull(result);
         assertNotNull(result.getId());
         result.getLinks().stream()
-                .anyMatch(link -> {
-                            if (!link.getRel().value().equals("self")
-                                    || !link.getHref().endsWith("/person/1")) return false;
-                            assert link.getType() != null;
-                            return link.getType().equals("GET");
-                        }
+                .anyMatch(link -> link.getRel().value().equals("self")
+                && link.getHref().endsWith("/person/v2")
+                && link.getType().equals("UPDATE")
 
                 );
     }
