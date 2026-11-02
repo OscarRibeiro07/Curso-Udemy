@@ -5,7 +5,59 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bbe8e194-a5e1-42d1-8cd1-3aa29bc18ab8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/06 Hateoas/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/06 Hateoas/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/src/main/java/br/com/erudio/DocSwaggerApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/08 Swagger/src/main/java/br/com/erudio/DocSwaggerApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/SwaggerApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/controllers/PersonController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/data/dto/PersonDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/exception/ExceptionResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/exception/ResourceNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/exception/handler/CustomEntityResponseHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/mapper/ObjectMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/mapper/custom/PersonMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/model/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/repository/PersonRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/java/br/com/erudio/service/PersonServices.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/src/test/java/br/com/erudio/HateoasApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/ContextNegotiationStartup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/HateoasApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/Startup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/controllers/GreetingController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/controllers/MathController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/controllers/PersonController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/controllers/TesteLogController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/data/dto/PersonDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/data/dto/v1/PersonDTOV1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/data/dto/v2/PersonDTOV2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/exception/ExceptionResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/exception/ResourceNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/exception/handler/CustomEntityResponseHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/mapper/ObjectMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/mapper/custom/PersonMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/math/SimpleMath.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/model/Greeting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/model/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/repository/PersonRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/requestConverters/ConversorNumero.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/br/com/erudio/service/PersonServices.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/recursos/Evolutionary+Database+Design.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/recursos/Redgate+Flyway+Documentation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/classes/recursos/What+are+the+possible+values+of+the+Hibernate+DDL+Auto.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/rest-with-spring-boot-and-java-erudio-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/rest-with-spring-boot-and-java-erudio-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/surefire-reports/TEST-br.com.erudio.StartupTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/surefire-reports/br.com.erudio.StartupTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 SwaggerAPI/target/test-classes/br/com/erudio/StartupTests.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,11 +130,13 @@
     "Spring Boot.ContextNegotiationStartup.executor": "Run",
     "Spring Boot.CustomSerializationJsonApplication (1).executor": "Run",
     "Spring Boot.CustomSerializationJsonApplication.executor": "Run",
+    "Spring Boot.DocSwaggerApplication.executor": "Run",
     "Spring Boot.HateoasApplication.executor": "Run",
     "Spring Boot.MigrationsWithFlywayApplication (1).executor": "Run",
     "Spring Boot.MigrationsWithFlywayApplication.executor": "Run",
+    "Spring Boot.SwaggerApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "SWAGGER",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Workspace/Cursos/Udemy/ContentNegotiation/src/main/java/br/com/erudio",
     "node.js.detected.package.jshint": "true",
@@ -123,11 +177,11 @@
       <command value="mvn clean install -DskipTests" />
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.HateoasApplication">
-    <configuration name="ContentNegotiationApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.DocSwaggerApplication">
+    <configuration name="DocSwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="ContentNegotiation" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.ContentNegotiationApplication" />
+      <module name="rest-with-spring-boot-and-java-erudio-hateoas" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.DocSwaggerApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.erudio.*" />
@@ -138,24 +192,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContentNegotiationStartup" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="SwaggerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="rest-with-spring-boot-and-java-erudio (1)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.ContentNegotiationStartup" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.com.erudio.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HateoasApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UnknownPolicyInFreeMode" />
-      <module name="rest-with-spring-boot-and-java-erudio (1)" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.HateoasApplication" />
+      <module name="rest-with-spring-boot-and-java-erudio" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.com.erudio.SwaggerApplication" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.com.erudio.*" />
@@ -167,15 +207,13 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.ContentNegotiationApplication" />
-      <item itemvalue="Spring Boot.ContentNegotiationStartup" />
-      <item itemvalue="Spring Boot.HateoasApplication" />
+      <item itemvalue="Spring Boot.DocSwaggerApplication" />
+      <item itemvalue="Spring Boot.SwaggerApplication" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.HateoasApplication" />
-        <item itemvalue="Spring Boot.ContentNegotiationApplication" />
-        <item itemvalue="Spring Boot.ContentNegotiationStartup" />
+        <item itemvalue="Spring Boot.DocSwaggerApplication" />
+        <item itemvalue="Spring Boot.SwaggerApplication" />
       </list>
     </recent_temporary>
   </component>

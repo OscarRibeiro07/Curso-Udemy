@@ -11,12 +11,12 @@
         <option value="$PROJECT_DIR$/ContextNegotiation/pom.xml" />
         <option value="$PROJECT_DIR$/ContentNegotiation/pom.xml" />
         <option value="$PROJECT_DIR$/Hateoas/pom.xml" />
-        <option value="$PROJECT_DIR$/08 SwaggerAPI/pom.xml" />
-        <option value="$PROJECT_DIR$/06 Hateoas/pom.xml" />
         <option value="$PROJECT_DIR$/05 ContentNegotiation/pom.xml" />
         <option value="$PROJECT_DIR$/04 CustomSerealizationJSON/pom.xml" />
         <option value="$PROJECT_DIR$/03 MigrationsWithFlyway/pom.xml" />
         <option value="$PROJECT_DIR$/01 rest-with-spring-boot-and-java-erudio/pom.xml" />
+        <option value="$PROJECT_DIR$/08 SwaggerAPI/pom.xml" />
+        <option value="$PROJECT_DIR$/08 Swagger/pom.xml" />
       </list>
     </option>
   </component>
