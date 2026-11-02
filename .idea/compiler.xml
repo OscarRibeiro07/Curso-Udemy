@@ -6,13 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="CustomSerealizationJSON" />
-        <module name="rest-with-spring-boot-and-java-erudio" />
-        <module name="MigrationsWithFlyway" />
         <module name="rest-with-spring-boot-and-java-erudio (1)" />
-        <module name="ContentNegotiation" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ContentNegotiation" target="17" />
+      <module name="CustomSerealizationJSON" target="17" />
+      <module name="MigrationsWithFlyway" target="17" />
+      <module name="rest-with-spring-boot-and-java-erudio" target="21" />
+      <module name="rest-with-spring-boot-and-java-erudio (2)" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
