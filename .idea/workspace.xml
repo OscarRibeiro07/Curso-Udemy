@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbe8e194-a5e1-42d1-8cd1-3aa29bc18ab8" name="Changes" comment="" />
+    <list default="true" id="bbe8e194-a5e1-42d1-8cd1-3aa29bc18ab8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +60,8 @@
   "keyToString": {
     "JUnit.HateoasApplication.executor": "Run",
     "JUnit.MigrationsWithFlywayApplicationTests.executor": "Run",
+    "JUnit.MockitoApplicationTest.executor": "Run",
+    "JUnit.PersonServicesTest.executor": "Run",
     "JUnit.PersonServicesTest.findById.executor": "Run",
     "JUnit.StartupTests.executor": "Run",
     "Maven.ContentNegotiation [clean,install...].executor": "Run",
@@ -82,6 +86,7 @@
     "Spring Boot.HateoasApplication.executor": "Run",
     "Spring Boot.MigrationsWithFlywayApplication (1).executor": "Run",
     "Spring Boot.MigrationsWithFlywayApplication.executor": "Run",
+    "Spring Boot.MockitoApplication.executor": "Run",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
