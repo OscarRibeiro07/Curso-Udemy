@@ -1,8 +1,12 @@
-package br.com.erudio.data.dto.v1;
+package br.com.erudio.mapper.custom.dto;
 
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
+import org.springframework.hateoas.RepresentationModel;
+
+import java.io.Serializable;
 import java.util.Objects;
-
-public class PersonDTOV1 {
+@JsonPropertyOrder({"id", "nome", "sobrenome", "endereco", "genero"})
+public class PersonDTO extends RepresentationModel<PersonDTO> implements Serializable {
 
     private static final long serializeble = 1L;
     private Long id;
@@ -11,12 +15,12 @@ public class PersonDTOV1 {
     private String endereco;
     private String genero;
 
-    public PersonDTOV1() {
+    public PersonDTO() {
     }
 
     @Override
     public boolean equals(Object o) {
-        if (!(o instanceof PersonDTOV1 personDTO)) return false;
+        if (!(o instanceof PersonDTO personDTO)) return false;
         return Objects.equals(id, personDTO.id) && Objects.equals(nome, personDTO.nome) && Objects.equals(sobrenome, personDTO.sobrenome) && Objects.equals(endereco, personDTO.endereco) && Objects.equals(genero, personDTO.genero);
     }
 

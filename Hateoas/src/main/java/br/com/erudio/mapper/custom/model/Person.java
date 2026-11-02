@@ -1,30 +1,38 @@
-package br.com.erudio.data.dto.v2;
+package br.com.erudio.mapper.custom.model;
 
-import java.util.Date;
+import jakarta.persistence.*;
+
+import java.io.Serializable;
 import java.util.Objects;
 
-public class PersonDTOV2 {
+@Entity
+public class Person implements Serializable {
 
     private static final long serializeble = 1L;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    @Column(name = "nome", nullable = false, length = 30)
     private String nome;
+    @Column(name = "sobrenome", nullable = false, length = 80)
     private String sobrenome;
+    @Column(name = "endereco", nullable = false, length = 100)
     private String endereco;
+    @Column(name = "genero", nullable = false, length = 10)
     private String genero;
-    private Date nascimento;
 
-    public PersonDTOV2() {
+    public Person() {
     }
 
     @Override
     public boolean equals(Object o) {
-        if (!(o instanceof PersonDTOV2 that)) return false;
-        return Objects.equals(id, that.id) && Objects.equals(nome, that.nome) && Objects.equals(sobrenome, that.sobrenome) && Objects.equals(endereco, that.endereco) && Objects.equals(genero, that.genero) && Objects.equals(nascimento, that.nascimento);
+        if (!(o instanceof Person person)) return false;
+        return Objects.equals(id, person.id) && Objects.equals(nome, person.nome) && Objects.equals(sobrenome, person.sobrenome) && Objects.equals(endereco, person.endereco) && Objects.equals(genero, person.genero);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nome, sobrenome, endereco, genero, nascimento);
+        return Objects.hash(id, nome, sobrenome, endereco, genero);
     }
 
     public Long getId() {
@@ -67,12 +75,6 @@ public class PersonDTOV2 {
         this.genero = genero;
     }
 
-    public Date getNascimento() {
-        return nascimento;
+    public void getGenero(String s) {
     }
-
-    public void setNascimento(Date nascimento) {
-        this.nascimento = nascimento;
-    }
-
 }
