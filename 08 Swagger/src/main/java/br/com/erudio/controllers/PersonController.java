@@ -2,6 +2,10 @@ package br.com.erudio.controllers;
 
 import br.com.erudio.data.dto.PersonDTO;
 import br.com.erudio.service.PersonServices;
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.media.Content;
+import io.swagger.v3.oas.annotations.responses.ApiResponse;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -9,8 +13,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RequestMapping("/person")
+@RequestMapping("/api/person/v1")
 @RestController
+@Tag(name = "", description = "Endipoint for managing People")
 public class PersonController {
 
     @Autowired
@@ -23,6 +28,11 @@ public class PersonController {
     }
 
     @GetMapping(produces = MediaType.APPLICATION_JSON_VALUE)
+    @Operation(summary = "Find All People",tags = "People",
+            description = "Find all",
+            responses = {
+            @ApiResponse(description = "No Content", responseCode = "204", content = @Content)
+            })
     public List<PersonDTO> findAll() {
 
         return personServices.findAll();
