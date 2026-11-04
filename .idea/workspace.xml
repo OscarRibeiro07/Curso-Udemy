@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbe8e194-a5e1-42d1-8cd1-3aa29bc18ab8" name="Changes" comment="" />
+    <list default="true" id="bbe8e194-a5e1-42d1-8cd1-3aa29bc18ab8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/08 Swagger/src/main/java/br/com/erudio/controllers/PersonController.java" beforeDir="false" afterPath="$PROJECT_DIR$/08 Swagger/src/main/java/br/com/erudio/controllers/PersonController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/controllers/PersonController.class" beforeDir="false" afterPath="$PROJECT_DIR$/08 Swagger/target/classes/br/com/erudio/controllers/PersonController.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
