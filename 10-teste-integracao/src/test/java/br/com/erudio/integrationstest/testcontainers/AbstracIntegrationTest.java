@@ -2,6 +2,7 @@ package br.com.erudio.integrationstest.testcontainers;
 
 import org.springframework.context.ApplicationContextInitializer;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.core.env.ConfigurableEnvironment;
 import org.springframework.test.context.ContextConfiguration;
 import org.testcontainers.lifecycle.Startables;
 import org.testcontainers.postgresql.PostgreSQLContainer;
@@ -22,6 +23,8 @@ public class AbstracIntegrationTest {
 
         @Override
         public void initialize(ConfigurableApplicationContext applicationContext) {
+            startContainer();
+            ConfigurableEnvironment environment = applicationContext.getEnvironment(); 
 
         }
     }
