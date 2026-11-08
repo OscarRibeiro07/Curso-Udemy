@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CustomSerealizationJSON" />
         <module name="rest-with-spring-boot-and-java-erudio (2)" />
+        <module name="hello-docker" />
         <module name="MigrationsWithFlyway" />
         <module name="rest-with-spring-boot-and-java-erudio-hateoas" />
         <module name="ContentNegotiation" />
@@ -24,6 +25,7 @@
       <module name="ContentNegotiation" options="-parameters" />
       <module name="CustomSerealizationJSON" options="-parameters" />
       <module name="MigrationsWithFlyway" options="-parameters" />
+      <module name="hello-docker" options="-parameters" />
       <module name="rest-with-spring-boot-and-java-erudio" options="-parameters" />
       <module name="rest-with-spring-boot-and-java-erudio (1)" options="-parameters" />
       <module name="rest-with-spring-boot-and-java-erudio (2)" options="-parameters" />
