@@ -31,6 +31,6 @@ logging:
     path-to-match: /api/**/v1/**
     enabled: true
   swagger-ui:
-    use-rrot-path: true
+    use-root-path: true
     path: /swagger-ui.html
     enabled: true
